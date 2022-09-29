@@ -61,7 +61,6 @@ To generate the results files with different policies, run:
 
 ```
 python MPC.py
-
 ```
 And follow the prompts to configure whether to run pedestrian-based or group-based policies,
 whether to allow future state predictions, whether to enable reactive agents or whether to
@@ -74,7 +73,6 @@ To bringup the evaluations of the result files, run:
 
 ```
 python evaluate.py --metric <metric_num> --policy1 <policy_num> --policy2 <policy_num>
-
 ```
 `--metric`, `--policy1` and `--policy2` flags are used to perform the Mann-Whitney u-test
 
@@ -107,7 +105,6 @@ After all the policies have been evaluated by `MPC.py`, run:
 
 ```
 python group_intrusion_test.py
-
 ```
 This will generate the result files to test for group intrusions. For convenience, the result files
 are already pre-generated and are stored in "group_intrusion_rst". Running `group_intrusion_test.py`
@@ -117,7 +114,6 @@ To bring up the group intrusion evaluations, run:
 
 ```
 python group_intrusion_interp.py --policy1 <policy_num> --policy2 <policy_num>
-
 ```
 <policy_num> follows the same specification as above (when running evaluate.py).
 A single prompt will again show up asking whether loading the results
