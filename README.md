@@ -21,6 +21,10 @@ If you find this code useful, please cite
 }
 ```
 
+# Note
+
+The code in this repo is no longer actively maintained. It has been cleaned up and moved to https://github.com/allanwangliqian/dataset-crowd-simulation
+
 # Prerequisites
 
 Environment: Python3
